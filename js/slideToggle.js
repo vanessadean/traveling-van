@@ -1,33 +1,25 @@
 $(document).ready(function () {
-	$('.one').toggleClass('active');
-	$('.text_two').slideToggle();
-	$('.text_three').slideToggle();
+	$('#one .heading').toggleClass('active');
+	$('#two .text').slideToggle();
+	$('#three .text').slideToggle();
 
-	$('.one').click(function() {
-		$('.one').toggleClass('active');
-		$('.text_one').slideToggle();
+	$('#one').click(function() {
+		$('#one .heading').toggleClass('active');
+		$('#one .text').slideToggle();
 	});
 
-	$('.two').click(function() {
-		$('.two').toggleClass('active');
-		$('.text_two').slideToggle();
+	$('#two').click(function() {
+		$('#two .heading').toggleClass('active');
+		$('#two .text').slideToggle();
 	});
 
-	$('.three').click(function() {
-		$('.three').toggleClass('active');
-		$('.text_three').slideToggle();
+	$('#three').click(function() {
+		$('#three .heading').toggleClass('active');
+		$('#three .text').slideToggle();
 	});
 
-	$('.one').hover(function() {
-		$('.one').toggleClass('active');
-	});
-
-	$('.two').hover(function() {
-		$('.two').toggleClass('active');
-	});
-
-	$('.three').hover(function() {
-		$('.three').toggleClass('active');
+	$('.heading').hover(function() {
+	 	$(this).toggleClass('active');
 	});
 
 });
