@@ -126,6 +126,12 @@
 		margin-top: 15px;
 	}
 
+	.home_image {
+		height: 200px;
+		min-width: 300px;
+		margin-bottom: 10px;
+	}
+
 	.col3_image {
 		height: 200px;
 		min-width: 300px;
