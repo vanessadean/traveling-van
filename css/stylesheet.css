@@ -59,6 +59,7 @@ nav {
 		line-height: 1.5em;
 		text-decoration: none;
 		padding: 10px 0 10px 0;
+		font-size: 1.125em;
 	}
 
 	.menu a {
@@ -93,7 +94,7 @@ nav {
 
 p {
 	font-size: 1.125em;
-	line-height: 1.3em;
+	line-height: 1.35em;
 	color: #888;
 	margin-bottom: 1em;
 }
