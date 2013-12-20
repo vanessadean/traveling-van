@@ -18,6 +18,10 @@
 				<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![end if]-->
 
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
 	<title>Traveling Van - Where I'm Going and Where I've Been</title>
 
 </head>
@@ -30,14 +34,19 @@
 	</header>
 
 	<nav>
-		<a href="next-stop.html">The Next Stop</a>
-		<a href="past-trips.html">Past Trips</a>
-				<!-- <ul>
-					<li>Australia</li>
-					<li>Portugal</li>
-					<li>Scotland</li>
-				</ul> -->
-		<a href="about.html">About Me</a>
+	<ul>
+		<li><a href="next-stop.html">The Next Stop</a></li>
+		<li class="dropdown">
+		<a id="drop1" href="past-trips.html" class="dropdown-toggle" data-toggle="dropdown">Past Trips</a>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="nola.html">New Orleans</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="australia.html">Australia</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="portugal.html">Portugal</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="scotland.html">Scotland</a></li>
+			</ul>
+		</li>
+		<li><a href="about.html">About Me</a></li>
+	</ul>
 	</nav>
 
 	<div class="wrapper">
