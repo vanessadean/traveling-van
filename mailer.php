@@ -32,7 +32,7 @@
 		mail($sendTo, $subject, $body, $header);
 		
 		//go to success page
-		header('Location: contact.html');
+		header('Location: contact.php');
 		exit;
 
 	/*

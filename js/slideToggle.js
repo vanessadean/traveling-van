@@ -3,18 +3,18 @@ $(document).ready(function () {
 	$('#two .text').slideToggle();
 	$('#three .text').slideToggle();
 
-	$('#one').click(function() {
-		$('#one .heading').toggleClass('active');
+	$('#one .heading').click(function() {
+		$(this).toggleClass('active');
 		$('#one .text').slideToggle();
 	});
 
-	$('#two').click(function() {
-		$('#two .heading').toggleClass('active');
+	$('#two .heading').click(function() {
+		$(this).toggleClass('active');
 		$('#two .text').slideToggle();
 	});
 
-	$('#three').click(function() {
-		$('#three .heading').toggleClass('active');
+	$('#three .heading').click(function() {
+		$(this).toggleClass('active');
 		$('#three .text').slideToggle();
 	});
 

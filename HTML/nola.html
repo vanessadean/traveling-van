@@ -14,8 +14,8 @@
 				<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![end if]-->
 	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/picturefill.js"></script>
 	<title>Traveling Van - Where I'm Going and Where I've Been</title>
 </head>
 
@@ -49,13 +49,35 @@
 
 			<div class="col1_left">
 				<figure>
-				<img src="images/garden-district.jpg" alt="image of the Garden District" title="the Garden District">
+
+					<span data-picture data-alt="image of the Garden District">
+			        	<span data-src="images/garden-district@2x.jpg"></span>
+	        			<span data-src="images/garden-district.jpg"  data-media="(min-width: 400px)"></span>
+
+		        		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+			        	<noscript>
+		    	        	<img src="images/garden-district.jpg" alt="image of the Garden District">
+		        		</noscript>
+	    			</span>
+					<!-- <img src="images/garden-district.jpg" alt="image of the Garden District" title="the Garden District"> -->
 				</figure>	
 				<figcaption>Photograph by Melissa Stevenson</figcaption>
 				<br>
 			<br>
+
+
 				<figure>
-				<img src="images/cochon.jpg" alt="image of cochon de lait at Commander's Palace" title="cochon de lait at Commander's Palace">
+					<span data-picture data-alt="image of cochon de lait at Commander's Palace">
+			        	<span data-src="images/cochon@2x.jpg"></span>
+	        			<span data-src="images/cochon.jpg"  data-media="(min-width: 400px)"></span>
+
+		        		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+			        	<noscript>
+		    	        	<img src="images/cochon.jpg" alt="image of cochon de lait at Commander's Palace">
+		        		</noscript>
+	    			</span>
+
+					<!-- <img src="images/cochon.jpg" alt="image of cochon de lait at Commander's Palace" title="cochon de lait at Commander's Palace"> -->
 				</figure>	
 				<figcaption>Photograph by Will Smith</figcaption>
 			<br>
@@ -74,7 +96,7 @@
 
 					<p>A walk down Bourbon Street is an assault to the ears from cover bands of every type and talent. It&#39;s easy to get dragged into a random bar by one of the aggressive bouncers lining the block, but I recommend that you proceed directly to the <a href="http://thefunkypirate.com/" target="_blank">Funky Pirate</a>: home of New Orleans largest local musician, <a href="http://www.bigalcarson.com/" target="_blank">Big Al Carson</a>. The night that my friends and I visited, we were treated to original tunes such as "Built for Comfort (Not for Speed)” and “Fix My Nuts” while sipping enormous cups of Funky Pirate beer. Sadly, we did not hear Al play “Take Your Drunken Ass Home” before we left, but <a href="http://youtu.be/IGCBX1WuTQA" target="_blank">here</a> it is for your viewing pleasure.</p>
 
-					<p>We also did a few non-drinking activities, but had to divide and conquer to take it all in during our short visit. Some of us visited the <a href="http://www.backstreetmuseum.org/" target="_blank">Backstreet Museum</a>, others <a href="http://www.mardigrasworld.com/‎" target="_blank">Mardi Gras World</a> and one lucky visitor went on a cemetery tour. I opted for the swamp tour because I wanted to feed the alligators. Unfortunately, that is no longer an option, but the alligators either haven&#39;t figured this out yet or they know that some of the tour guides, like ours, are still willing to throw them a few &#39;mallows on the sly. We booked our tour on a whim so I don&#39;t know if it was the best one out there, but our guide was a genuine alligator hunter working to catch a ten foot gator that would break his standing record. We saw several gators swimming around during the tour, and there was even a baby one on the boat that everyone took turns holding. There are probably enough gators in the bayou that every tour sees a few.</p>
+					<p>We also did a few non-drinking activities, but had to divide and conquer to take it all in during our short visit. Some of us visited the <a href="http://www.backstreetmuseum.org/" target="_blank">Backstreet Museum</a>, others <a href="http://www.mardigrasworld.com/‎" target="_blank">Mardi Gras World</a> and one lucky visitor went on a cemetery tour. I opted for the swamp tour because I wanted to feed the alligators marshmallows. Unfortunately, that is no longer an option, but the alligators either haven&#39;t figured this out yet or they know that some of the tour guides, like ours, are still willing to throw them a few &#39;mallows on the sly. We saw several gators swimming around during the tour, and there was even a baby one on the boat that everyone took turns holding. We booked our tour on a whim so I don&#39;t know if it was the best one out there, but our guide was a genuine alligator hunter working to catch a ten foot gator that would break his standing record. There are probably enough gators in the bayou that every tour sees a few.</p>
 					</div>
 				</div>
 				<div id="two">
